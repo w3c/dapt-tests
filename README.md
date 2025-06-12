@@ -1,2 +1,2 @@
 # dapt-tests
-Tests for Dubbing and Audio description Profiles of TTML2 
+Tests for [DAPT](https://www.w3.org/TR/DAPT/) (Dubbing and Audio description Profiles of TTML2) 

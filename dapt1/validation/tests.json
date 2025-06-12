@@ -1,0 +1,138 @@
+{
+    "#agent": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#contentProfiles-root": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#daptOriginTimecode": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#descType": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#onScreen": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#profile-root": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#represents": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#scriptEventGrouping": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#scriptEventMapping": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#scriptRepresents": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#scriptType-root": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#serialization": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#source-data": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#textLanguageSource": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#xmlId-div": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#xmlLang-audio-nonMatching": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    },
+    "#xmlLang-root": {
+        "valid": [
+
+        ],
+        "invalid": [
+
+        ]
+    }
+}
