@@ -41,10 +41,10 @@
     },
     "#profile-root": {
         "valid": [
-
+            { "test": "dapt-valid-profile"}
         ],
         "invalid": [
-
+            { "test": "dapt-invld-profile"}
         ]
     },
     "#represents": {
