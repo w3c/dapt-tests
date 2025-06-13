@@ -13,8 +13,8 @@
             { "test" : "dapt-valid-contentProfiles" }
         ],
         "invalid": [
-            { "test" : "dapt-invalid-contentProfiles-im3t-no-dapt" },
-            { "test" : "dapt-invalid-contentProfiles-omitted" }
+            { "test" : "dapt-invld-contentProfiles-im3t-no-dapt" },
+            { "test" : "dapt-invld-contentProfiles-omitted" }
          ]
     },
     "#daptOriginTimecode": {
