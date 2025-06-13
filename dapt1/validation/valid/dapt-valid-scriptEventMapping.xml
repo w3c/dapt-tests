@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml"
+    xmlns:daptm="http://www.w3.org/ns/ttml/profile/dapt#metadata"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
+    daptm:scriptType="originalTranscript" xml:lang="en"
+    daptm:scriptRepresents="audio">
+    <body>
+        <div xml:id="d1"><!-- Script Event with no Text --></div>
+        <div xml:id="d2">
+            <p>Text belonging to a Script Event</p>
+        </div>
+        <div><!-- Not a Script Event --></div>
+        <div><!-- Not a Script Event --><p>Not a Text</p></div>
+        <div>
+            <div xml:id="d3"><!-- Script Event d3 with no Text --></div>
+            <div xml:id="d4"><!-- Script Event d4 with no Text --></div>
+        </div>
+        <div>
+            <div xml:id="d5"><p>Script Event d5 with a Text</p></div>
+            <div xml:id="d6"><p>Script Event d6 with a Text</p></div>
+        </div>
+        <div>
+            <div>
+                <div xml:id="d7"><!-- Script Event d7 with no Text --></div>
+                <div xml:id="d8"><!-- Script Event d8 with no Text --></div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div xml:id="d9"><p>Script Event d9 with a Text</p></div>
+                <div xml:id="d10"><p>Script Event d10 with a Text</p></div>
+            </div>
+        </div>
+    </body>
+</tt>
