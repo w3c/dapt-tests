@@ -25,10 +25,10 @@
     },
     "#descType": {
         "valid": [
-
+            { "test" : "dapt-valid-onScreen" }
         ],
         "invalid": [
-
+            { "test" : "dapt-invld-onScreen" }
         ]
     },
     "#onScreen": {

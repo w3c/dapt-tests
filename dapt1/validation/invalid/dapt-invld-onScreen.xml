@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml"
+    xmlns:daptm="http://www.w3.org/ns/ttml/profile/dapt#metadata"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
+    daptm:scriptRepresents="audio" daptm:scriptType="originalTranscript" xml:lang="en">
+    <body>
+        <div xml:id="d1" daptm:onScreen="INVALID"/>
+    </body>
+</tt>
