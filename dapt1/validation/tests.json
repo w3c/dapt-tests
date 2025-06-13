@@ -49,10 +49,15 @@
     },
     "#represents": {
         "valid": [
-
+            { "test": "dapt-valid-represents-direct-on-div" },
+            { "test": "dapt-valid-represents-inherit-from-body" },
+            { "test": "dapt-valid-represents-inherit-from-root-and-override" },
+            { "test": "dapt-valid-represents-inherit-from-root" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-represents-invalid" },
+            { "test": "dapt-invld-represents-omitted" },
+            { "test": "dapt-invld-represents-scriptRepresents-mismatch" }
         ]
     },
     "#scriptEventGrouping": {
