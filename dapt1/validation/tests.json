@@ -4,13 +4,13 @@
             { "test": "dapt-valid-agent" }
         ],
         "invalid": [
-            { "test": "dapt-invalid-agent-actor-id-invalid" },
-            { "test": "dapt-invalid-agent-actor-id-not-agent" },
-            { "test": "dapt-invalid-agent-actor-id-undeclared" },
-            { "test": "dapt-invalid-agent-actor-is-parent" },
-            { "test": "dapt-invalid-agent-invalid-xmlId" },
-            { "test": "dapt-invalid-agent-no-name" },
-            { "test": "dapt-invalid-agent-no-xmlId" }
+            { "test": "dapt-invld-agent-actor-id-invalid" },
+            { "test": "dapt-invld-agent-actor-id-not-agent" },
+            { "test": "dapt-invld-agent-actor-id-undeclared" },
+            { "test": "dapt-invld-agent-actor-is-parent" },
+            { "test": "dapt-invld-agent-invalid-xmlId" },
+            { "test": "dapt-invld-agent-no-name" },
+            { "test": "dapt-invld-agent-no-xmlId" }
         ]
     },
     "#contentProfiles-root": {
