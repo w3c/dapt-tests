@@ -57,10 +57,9 @@
     },
     "#scriptEventGrouping": {
         "valid": [
-
+            { "test": "dapt-valid-scriptEventGrouping" }
         ],
         "invalid": [
-
         ]
     },
     "#scriptEventMapping": {

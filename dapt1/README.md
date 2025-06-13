@@ -52,3 +52,25 @@ lists validity and invalidity tests (by name), and optionally includes any of
 (1) a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration and
 (2) an edition introduced (since) indicator.
 We refer to this mapping file as the validation test manifest.
+
+## Presentation Test Suite
+
+The presentation test suite is found under the `presentation` directory,
+and includes tests for presenting valid content.
+
+A mapping from (designated) features to specific tests is found in
+`presentation/tests.json`, which, for each new DAPT feature designator,
+lists the presentation tests (by name), and optionally includes any of
+(1) a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration and
+(2) an edition introduced (since) indicator.
+We refer to this mapping file as the presentation test manifest.
+
+For tests having primarily visual presentation semantics,
+each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`,
+which contains the output of a particular reference implementation (imscJS).
+Each such reference archive contains a set of one or more image frames represented in some image format,
+where each image represents the rendering of an ISD (intermediate synchronic document)
+and has for its filename time of the beginning of that ISD.
+In the present form of the reference archives, the image format is image/png.
+These image frames should not be construed as normative,
+but merely serve as a possible reference image for performing (human visual) comparisons of expected output.

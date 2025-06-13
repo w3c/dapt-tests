@@ -1,0 +1,7 @@
+{
+    "#scriptEventGrouping": {
+        "valid": [
+            { "test": "dapt-prstn-scriptEventGrouping" }
+        ]
+    }
+}
