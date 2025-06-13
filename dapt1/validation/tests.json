@@ -9,11 +9,13 @@
     },
     "#contentProfiles-root": {
         "valid": [
-
+            { "test" : "dapt-valid-contentProfiles-im3t" },
+            { "test" : "dapt-valid-contentProfiles" }
         ],
         "invalid": [
-
-        ]
+            { "test" : "dapt-invalid-contentProfiles-im3t-no-dapt" },
+            { "test" : "dapt-invalid-contentProfiles-omitted" }
+         ]
     },
     "#daptOriginTimecode": {
         "valid": [
