@@ -121,10 +121,10 @@
     },
     "#xmlLang-audio-nonMatching": {
         "valid": [
-
+            { "test": "dapt-valid-xmlLang-on-audio-matching" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-xmlLang-on-audio-non-matching" }
         ]
     },
     "#xmlLang-root": {
