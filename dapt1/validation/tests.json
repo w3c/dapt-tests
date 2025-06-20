@@ -136,14 +136,6 @@
             { "test": "dapt-invld-langSrc-on-root-invalid-value" }
         ]
     },
-    "#xmlId-div": {
-        "valid": [
-
-        ],
-        "invalid": [
-
-        ]
-    },
     "#xmlLang-audio-nonMatching": {
         "valid": [
             { "test": "dapt-valid-xmlLang-on-audio-matching" }
