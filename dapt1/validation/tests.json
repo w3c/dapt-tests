@@ -154,10 +154,12 @@
     },
     "#xmlLang-root": {
         "valid": [
-
+            { "test": "valid/dapt-valid-xmlLang-root" }
         ],
         "invalid": [
-
+            { "test": "invalid/dapt-invld-xmlLang-root-empty" },
+            { "test": "invalid/dapt-invld-xmlLang-root-invalid" },
+            { "test": "invalid/dapt-invld-xmlLang-root-missing" }
         ]
     }
 }
