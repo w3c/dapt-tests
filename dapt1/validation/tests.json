@@ -100,10 +100,11 @@
     },
     "#scriptType-root": {
         "valid": [
-
+            { "test": "dapt-valid-scriptType-root" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-scriptType-root-invalid-value" },
+            { "test": "dapt-invld-scriptType-root-omitted" }
         ]
     },
     "#serialization": {
