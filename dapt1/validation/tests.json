@@ -82,10 +82,9 @@
     },
     "#scriptEventMapping": {
         "valid": [
-
+            { "test": "dapt-valid-scriptEventMapping" }
         ],
         "invalid": [
-
         ]
     },
     "#scriptRepresents": {
