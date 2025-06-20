@@ -25,11 +25,14 @@
     },
     "#daptOriginTimecode": {
         "valid": [
-
+            { "test": "dapt-valid-originTimecode" }
         ],
         "invalid": [
-
-        ]
+            { "test" : "dapt-invld-originTimecode-bad-format" },
+            { "test" : "dapt-invld-originTimecode-frames-too-many" },
+            { "test" : "dapt-invld-originTimecode-no-framerate" },
+            { "test" : "dapt-invld-originTimecode-too-many" }
+       ]
     },
     "#descType": {
         "valid": [
