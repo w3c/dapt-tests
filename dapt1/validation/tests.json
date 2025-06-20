@@ -15,11 +15,13 @@
     },
     "#contentProfiles-root": {
         "valid": [
-
+            { "test" : "dapt-valid-contentProfiles-im3t" },
+            { "test" : "dapt-valid-contentProfiles" }
         ],
         "invalid": [
-
-        ]
+            { "test" : "dapt-invld-contentProfiles-im3t-no-dapt" },
+            { "test" : "dapt-invld-contentProfiles-omitted" }
+         ]
     },
     "#daptOriginTimecode": {
         "valid": [
