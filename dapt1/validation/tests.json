@@ -119,10 +119,10 @@
     },
     "#source-data": {
         "valid": [
-
+            { "test": "dapt-valid-source-data" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-source-data-source-child"}
         ]
     },
     "#textLanguageSource": {
