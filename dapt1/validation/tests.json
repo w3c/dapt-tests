@@ -46,10 +46,10 @@
     },
     "#onScreen": {
         "valid": [
-
+            { "test" : "dapt-valid-onScreen" }
         ],
         "invalid": [
-
+            { "test" : "dapt-invld-onScreen" }
         ]
     },
     "#profile-root": {
