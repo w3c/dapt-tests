@@ -36,10 +36,12 @@
     },
     "#descType": {
         "valid": [
-
+            { "test" : "dapt-valid-descType-extension-value" },
+            { "test" : "dapt-valid-descType-no-descType" },
+            { "test" : "dapt-valid-descType-registry-value" }
         ],
         "invalid": [
-
+            { "test" : "dapt-invld-descType-extension-value" }
         ]
     },
     "#onScreen": {
