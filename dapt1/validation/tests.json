@@ -127,10 +127,13 @@
     },
     "#textLanguageSource": {
         "valid": [
-
+            { "test": "dapt-valid-langSrc-omitted" },
+            { "test": "dapt-valid-langSrc-on-content-with-inheritance" },
+            { "test": "dapt-valid-langSrc-on-root-empty" },
+            { "test": "dapt-valid-langSrc-on-root" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-langSrc-on-root-invalid-value" }
         ]
     },
     "#xmlId-div": {
