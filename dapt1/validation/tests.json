@@ -1,138 +1,157 @@
 {
     "#agent": {
         "valid": [
-
+            { "test": "dapt-valid-agent" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-agent-actor-id-invalid" },
+            { "test": "dapt-invld-agent-actor-id-not-agent" },
+            { "test": "dapt-invld-agent-actor-id-undeclared" },
+            { "test": "dapt-invld-agent-actor-is-parent" },
+            { "test": "dapt-invld-agent-invalid-xmlId" },
+            { "test": "dapt-invld-agent-no-name" },
+            { "test": "dapt-invld-agent-no-xmlId" }
         ]
     },
     "#contentProfiles-root": {
         "valid": [
-
+            { "test" : "dapt-valid-contentProfiles-im3t" },
+            { "test" : "dapt-valid-contentProfiles" }
         ],
         "invalid": [
-
-        ]
+            { "test" : "dapt-invld-contentProfiles-im3t-no-dapt" },
+            { "test" : "dapt-invld-contentProfiles-omitted" }
+         ]
     },
     "#daptOriginTimecode": {
         "valid": [
-
+            { "test": "dapt-valid-originTimecode" }
         ],
         "invalid": [
-
-        ]
+            { "test" : "dapt-invld-originTimecode-bad-format" },
+            { "test" : "dapt-invld-originTimecode-frames-too-many" },
+            { "test" : "dapt-invld-originTimecode-no-framerate" },
+            { "test" : "dapt-invld-originTimecode-too-many" }
+       ]
     },
     "#descType": {
         "valid": [
-
+            { "test" : "dapt-valid-descType-extension-value" },
+            { "test" : "dapt-valid-descType-no-descType" },
+            { "test" : "dapt-valid-descType-registry-value" }
         ],
         "invalid": [
-
+            { "test" : "dapt-invld-descType-extension-value" }
         ]
     },
     "#onScreen": {
         "valid": [
-
+            { "test" : "dapt-valid-onScreen" }
         ],
         "invalid": [
-
+            { "test" : "dapt-invld-onScreen" }
         ]
     },
     "#profile-root": {
         "valid": [
-
+            { "test": "dapt-valid-profile"}
         ],
         "invalid": [
-
+            { "test": "dapt-invld-profile"}
         ]
     },
     "#represents": {
         "valid": [
-
+            { "test": "dapt-valid-represents-direct-on-div" },
+            { "test": "dapt-valid-represents-inherit-from-body" },
+            { "test": "dapt-valid-represents-inherit-from-root-and-override" },
+            { "test": "dapt-valid-represents-inherit-from-root" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-represents-invalid" },
+            { "test": "dapt-invld-represents-omitted" },
+            { "test": "dapt-invld-represents-scriptRepresents-mismatch" }
         ]
     },
     "#scriptEventGrouping": {
         "valid": [
-
+            { "test": "dapt-valid-scriptEventGrouping" }
         ],
         "invalid": [
-
         ]
     },
     "#scriptEventMapping": {
         "valid": [
-
+            { "test": "dapt-valid-scriptEventMapping" }
         ],
         "invalid": [
-
         ]
     },
     "#scriptRepresents": {
         "valid": [
-
+            { "test": "dapt-valid-scriptRepresents-single-value" },
+            { "test": "dapt-valid-scriptRepresents-two-values" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-scriptRepresents-invalid-content-descriptor" },
+            { "test": "dapt-invld-scriptRepresents-invalid-list" },
+            { "test": "dapt-invld-scriptRepresents-omitted" }
         ]
     },
     "#scriptType-root": {
         "valid": [
-
+            { "test": "dapt-valid-scriptType-root" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-scriptType-root-invalid-value" },
+            { "test": "dapt-invld-scriptType-root-omitted" }
         ]
     },
     "#serialization": {
         "valid": [
-
+            { "test": "dapt-valid-serialization" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-serialization-encoding-iso8859-1" },
+            { "test": "dapt-invld-serialization-entity-declaration-and-ref" },
+            { "test": "dapt-invld-serialization-not-xml" }
         ]
     },
     "#source-data": {
         "valid": [
-
+            { "test": "dapt-valid-source-data" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-source-data-source-child"}
         ]
     },
     "#textLanguageSource": {
         "valid": [
-
+            { "test": "dapt-valid-langSrc-omitted" },
+            { "test": "dapt-valid-langSrc-on-content-with-inheritance" },
+            { "test": "dapt-valid-langSrc-on-root-empty" },
+            { "test": "dapt-valid-langSrc-on-root" }
         ],
         "invalid": [
-
-        ]
-    },
-    "#xmlId-div": {
-        "valid": [
-
-        ],
-        "invalid": [
-
+            { "test": "dapt-invld-langSrc-on-root-invalid-value" }
         ]
     },
     "#xmlLang-audio-nonMatching": {
         "valid": [
-
+            { "test": "dapt-valid-xmlLang-on-audio-matching" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-xmlLang-on-audio-non-matching" }
         ]
     },
     "#xmlLang-root": {
         "valid": [
-
+            { "test": "valid/dapt-valid-xmlLang-root" }
         ],
         "invalid": [
-
+            { "test": "invalid/dapt-invld-xmlLang-root-empty" },
+            { "test": "invalid/dapt-invld-xmlLang-root-invalid" },
+            { "test": "invalid/dapt-invld-xmlLang-root-missing" }
         ]
     }
 }
