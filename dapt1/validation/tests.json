@@ -89,10 +89,13 @@
     },
     "#scriptRepresents": {
         "valid": [
-
+            { "test": "dapt-valid-scriptRepresents-single-value" },
+            { "test": "dapt-valid-scriptRepresents-two-values" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-scriptRepresents-invalid-content-descriptor" },
+            { "test": "dapt-invld-scriptRepresents-invalid-list" },
+            { "test": "dapt-invld-scriptRepresents-omitted" }
         ]
     },
     "#scriptType-root": {
