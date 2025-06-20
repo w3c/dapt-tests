@@ -109,10 +109,12 @@
     },
     "#serialization": {
         "valid": [
-
+            { "test": "dapt-valid-serialization" }
         ],
         "invalid": [
-
+            { "test": "dapt-invld-serialization-encoding-iso8859-1" },
+            { "test": "dapt-invld-serialization-entity-declaration-and-ref" },
+            { "test": "dapt-invld-serialization-not-xml" }
         ]
     },
     "#source-data": {
