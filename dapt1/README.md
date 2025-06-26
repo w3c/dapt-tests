@@ -4,7 +4,7 @@ The DAPT1 Test Suite consists of a validation test suite.
 The primary purpose of this test suite is to demonstrate adequate
 implementation experience of each feature of [DAPT](https://www.w3.org/TR/DAPT/) that is not already
 present in [TTML2](https://www.w3.org/TR/ttml2/) as required by
-the DAPT Candidate Recommentation Exit Criteria, and listed in the DAPT Implementation Report.
+the DAPT Candidate Recommendation Exit Criteria, and listed in the DAPT Implementation Report.
 
 Tests for TTML2 features can be found at [ttml2-tests](https://github.com/w3c/ttml2-tests).
 
