@@ -55,8 +55,11 @@ We refer to this mapping file as the validation test manifest.
 
 ## Presentation Test Suite
 
-The presentation test suite is found under the `presentation` directory,
-and includes tests for presenting valid content.
+There are currently no presentation tests.
+
+In case we add presentation tests in the future,
+the presentation test suite is found under the `presentation` directory,
+and would include tests for presenting valid content.
 
 A mapping from (designated) features to specific tests is found in
 `presentation/tests.json`, which, for each new DAPT feature designator,
