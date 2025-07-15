@@ -73,13 +73,6 @@
             { "test": "dapt-invld-represents-scriptRepresents-mismatch" }
         ]
     },
-    "#scriptEventGrouping": {
-        "valid": [
-            { "test": "dapt-valid-scriptEventGrouping" }
-        ],
-        "invalid": [
-        ]
-    },
     "#scriptEventMapping": {
         "valid": [
             { "test": "dapt-valid-scriptEventMapping" }
