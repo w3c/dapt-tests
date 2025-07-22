@@ -139,12 +139,12 @@
     },
     "#xmlLang-root": {
         "valid": [
-            { "test": "valid/dapt-valid-xmlLang-root" }
+            { "test": "dapt-valid-xmlLang-root" }
         ],
         "invalid": [
-            { "test": "invalid/dapt-invld-xmlLang-root-empty" },
-            { "test": "invalid/dapt-invld-xmlLang-root-invalid" },
-            { "test": "invalid/dapt-invld-xmlLang-root-missing" }
+            { "test": "dapt-invld-xmlLang-root-empty" },
+            { "test": "dapt-invld-xmlLang-root-invalid" },
+            { "test": "dapt-invld-xmlLang-root-missing" }
         ]
     }
 }
