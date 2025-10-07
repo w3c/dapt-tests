@@ -5,13 +5,11 @@
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
     daptm:scriptType="originalTranscript" xml:lang="en"
-    daptm:scriptRepresents="visual" daptm:represents="visual.text">
-    <body daptm:langSrc="fr">
-        <div xml:id="d1" daptm:langSrc="zxx" daptm:represents="visual.nonText">
+    daptm:scriptRepresents="visual" daptm:represents="visual"
+    daptm:langSrc="zxx">
+    <body>
+        <div xml:id="d1">
             <p><span>A boat floats on a lake</span></p>
-        </div>
-        <div xml:id="d2" daptm:langSrc="en">
-            <p><span>No fishing</span></p>
         </div>
     </body>
 </tt>
