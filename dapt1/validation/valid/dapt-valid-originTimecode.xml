@@ -11,7 +11,7 @@
         </metadata>
     </head>
     <body>
-        <div xml:id="se1" begin="0s" end="1.8s">
+        <div xml:id="se1" begin="0s" end="1.8s" daptm:represents="audio">
             <!-- This script event was generated from a source whose begin timecode was 10:01:20:12 -->
         </div>
     </body>
