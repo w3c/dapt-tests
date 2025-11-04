@@ -4,7 +4,8 @@
     xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
-    daptm:scriptRepresents="audio" daptm:scriptType="originalTranscript" xml:lang="en">
+    daptm:scriptRepresents="audio" daptm:represents="audio"
+    daptm:scriptType="originalTranscript" xml:lang="en">
     <body>
         <div xml:id="d1" daptm:onScreen="INVALID"/>
     </body>

@@ -8,7 +8,8 @@
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
     daptm:scriptType="originalTranscript" xml:lang="en"
-    daptm:scriptRepresents="audio">
+    daptm:scriptRepresents="audio" daptm:represents="audio"
+    >
     <body>
         <div xml:id="d1">
             <p>Entity reference: &entity;</p>

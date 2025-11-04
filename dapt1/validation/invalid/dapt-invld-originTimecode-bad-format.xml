@@ -4,7 +4,8 @@
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
     ttp:frameRate="25"
-    daptm:scriptRepresents="audio" daptm:scriptType="originalTranscript" xml:lang="en">
+    daptm:scriptRepresents="audio" daptm:represents="audio"
+    daptm:scriptType="originalTranscript" xml:lang="en">
     <head>
         <metadata>
             <daptm:daptOriginTimecode>10012012</daptm:daptOriginTimecode>
