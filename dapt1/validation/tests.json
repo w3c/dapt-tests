@@ -106,7 +106,8 @@
         ],
         "invalid": [
             { "test": "dapt-invld-serialization-bom" },
-            { "test": "dapt-invld-serialization-dtd" },
+            { "test": "dapt-invld-serialization-external-dtd" },
+            { "test": "dapt-invld-serialization-internal-dtd" },
             { "test": "dapt-invld-serialization-encoding-iso8859-1" },
             { "test": "dapt-invld-serialization-entity-declaration-and-ref" },
             { "test": "dapt-invld-serialization-not-xml" }
