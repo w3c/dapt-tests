@@ -123,10 +123,10 @@
             { "test": "dapt-valid-langSrc-omitted" },
             { "test": "dapt-valid-langSrc-on-content-with-inheritance" },
             { "test": "dapt-valid-langSrc-on-root" },
+            { "test": "dapt-valid-langSrc-on-root-empty" },
             { "test": "dapt-valid-langSrc-on-root-zxx" }
         ],
         "invalid": [
-            { "test": "dapt-invld-langSrc-on-root-empty" },
             { "test": "dapt-invld-langSrc-on-root-invalid-value" }
         ]
     },
