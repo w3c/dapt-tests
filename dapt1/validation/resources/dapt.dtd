@@ -1,0 +1,33 @@
+<?xml encoding="UTF-8"?>
+<!-- 
+This DTD is provided solely for the purpose of fulfilling the test
+requirement for the DAPT extension feature #serialization and is
+not representative of the full requirements of DAPT or TTML2.
+
+This DTD should not be used for any other purpose.
+-->
+
+<!ELEMENT tt (body)>
+<!ATTLIST tt
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'
+  xmlns:ttm CDATA #FIXED 'http://www.w3.org/ns/ttml#metadata'
+  xmlns:ttp CDATA #FIXED 'http://www.w3.org/ns/ttml#parameter'
+  xmlns:daptm CDATA #FIXED 'http://www.w3.org/ns/ttml/profile/dapt#metadata'
+  xml:lang NMTOKEN #REQUIRED
+  ttp:contentProfiles CDATA #REQUIRED
+  daptm:represents NMTOKEN #REQUIRED
+  daptm:scriptRepresents NMTOKEN #REQUIRED
+  daptm:scriptType NMTOKEN #REQUIRED>
+
+<!ELEMENT body (div)+>
+<!ATTLIST body
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'>
+
+<!ELEMENT div (p)>
+<!ATTLIST div
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'
+  xml:id NMTOKEN #REQUIRED>
+
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'>

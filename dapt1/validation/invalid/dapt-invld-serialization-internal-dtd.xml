@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tt [
+<!-- 
+This DTD is provided solely for the purpose of fulfilling the test
+requirement for the DAPT extension feature #serialization and is
+not representative of the full requirements of DAPT or TTML2.
+
+This DTD should not be used for any other purpose.
+-->
+
+<!ELEMENT tt (body)>
+<!ATTLIST tt
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'
+  xmlns:ttm CDATA #FIXED 'http://www.w3.org/ns/ttml#metadata'
+  xmlns:ttp CDATA #FIXED 'http://www.w3.org/ns/ttml#parameter'
+  xmlns:daptm CDATA #FIXED 'http://www.w3.org/ns/ttml/profile/dapt#metadata'
+  xml:lang NMTOKEN #REQUIRED
+  ttp:contentProfiles CDATA #REQUIRED
+  daptm:represents NMTOKEN #REQUIRED
+  daptm:scriptRepresents NMTOKEN #REQUIRED
+  daptm:scriptType NMTOKEN #REQUIRED>
+
+<!ELEMENT body (div)+>
+<!ATTLIST body
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'>
+
+<!ELEMENT div (p)>
+<!ATTLIST div
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'
+  xml:id NMTOKEN #REQUIRED>
+
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p
+  xmlns CDATA #FIXED 'http://www.w3.org/ns/ttml'>
+]>
+<tt xmlns="http://www.w3.org/ns/ttml"
+    xmlns:daptm="http://www.w3.org/ns/ttml/profile/dapt#metadata"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    ttp:contentProfiles="http://www.w3.org/ns/ttml/profile/dapt1.0/content"
+    daptm:scriptType="originalTranscript" xml:lang="en"
+    daptm:scriptRepresents="audio" daptm:represents="audio">
+    <body>
+        <div xml:id="d1">
+            <p>Predefined entity: &lt;</p>
+        </div>
+        <div xml:id="d2">
+            <p>LEFT DOUBLE QUOTATION MARK U+201C UTF-8 E2 80 9C: “</p>
+        </div>
+        <div xml:id="d3">
+            <p>LATIN CAPITAL LETTER O WITH STROKE U+00D8 UTF-8 C3 98: Ø</p>
+        </div>
+    </body>
+</tt>
